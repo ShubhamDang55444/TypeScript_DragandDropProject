@@ -1,0 +1,37 @@
+{
+  "name": "typescript_dranganddropproject",
+  "version": "1.0.0",
+  "description": "Course Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhamDang55444/TypeScript_DragandDropProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhamDang55444/TypeScript_DragandDropProject/issues"
+  },
+  "homepage": "https://github.com/ShubhamDang55444/TypeScript_DragandDropProject#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.39.3",
+    "axios": "^0.19.2",
+    "class-transformer": "^0.2.3",
+    "loadash": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
